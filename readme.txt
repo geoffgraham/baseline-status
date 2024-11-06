@@ -10,46 +10,35 @@ Displays current Baseline availability for web platform features.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+This is a WordPress-ified port of the [Baseline Status web component](https://web-platform-dx.github.io/web-features/use-baseline/) released by the Google Chrome team.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
+Just as you'd do for any other WordPress plugin:
 
 1. Upload the plugin files to the `/wp-content/plugins/baseline-status` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+2. Activate the plugin through the 'Plugins' screen in WordPress
 
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Why is there a toggle control? =
 
-An answer to that question.
+Good question. I was thinking it would help update the component without a page refresh but it didn't work out. I just haven't removed it yet.
 
-= What about foo bar? =
+= So, the block doesn't live update? =
 
-Answer to foo bar dilemma.
+Nope, I'm afraid not. The block itself updates when changing features but a full page refresh is currently needed to see the full change.
+
+= I can't select the block from the editor! =
+
+Yeah, what's up with that?!
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Adding the block to a post in the WordPress Block Editor.
 
 == Changelog ==
 
 = 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+* Initial release
