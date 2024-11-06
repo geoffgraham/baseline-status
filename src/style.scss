@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+baseline-status {
+  --color-text: #fff;
+  --color-outline: var(--orange);
+
+  background: #000;
+  border: solid 5px var(--color-outline);
+  border-radius: 8px;
+  color: var(--color-text);
+  display: block;
+  margin-block-end: var(--gap);
+  padding: calc(var(--gap) / 4);
+
+  @media (prefers-color-scheme: dark) {
+    --color-text: #fff;
+    --color-link: var(--orange);
+  }
+}

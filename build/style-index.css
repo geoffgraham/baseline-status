@@ -1,0 +1,28 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+baseline-status {
+  --color-text: #fff;
+  --color-outline: var(--orange);
+  background: #000;
+  border: solid 5px var(--color-outline);
+  border-radius: 8px;
+  color: var(--color-text);
+  display: block;
+  margin-block-end: var(--gap);
+  padding: calc(var(--gap) / 4);
+}
+@media (prefers-color-scheme: dark) {
+  baseline-status {
+    --color-text: #fff;
+    --color-link: var(--orange);
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
