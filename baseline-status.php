@@ -6,7 +6,7 @@
  * Requires at least: 6.6
  * Requires PHP:      7.2
  * Version:           0.1.0
- * Author:            Geoff Graham
+ * Author:            geoffgraham
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       baseline-status
@@ -33,7 +33,7 @@ add_action( 'init', 'css_tricks_baseline_status_block_init' );
 function baseline_status_widget_enqueue_block_assets() {
 	wp_enqueue_script(
 			'baseline-status-widget-script',
-			plugins_url( 'baseline-status.js', __FILE__ ),
+			plugins_url( 'baseline-status.min.js', __FILE__ ),
 			array(),
 			'1.0.4',
 			true
