@@ -3,9 +3,9 @@
  * Plugin Name:       Baseline Status
  * Plugin URI:        https://css-tricks.com
  * Description:       Displays current Baseline availability for web platform features.
- * Requires at least: 6.6
+ * Requires at least: 6.8
  * Requires PHP:      7.2
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            geoffgraham
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html

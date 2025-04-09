@@ -44,6 +44,10 @@ I'll try! But I might not be the quickest to get to it.
 
 == Changelog ==
 
+= 0.1.1 =
+* Updates Baseline script
+* Bumps "Tested up to" to WP 6.8
+
 = 0.1.0 =
 * Enqueues Baseline script as a module
 * Updates readme
